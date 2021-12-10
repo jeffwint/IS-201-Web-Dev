@@ -1,0 +1,69 @@
+body {
+    background-image: url("../images/canyonphoto1.jpg");
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header.masthead {
+    background-color: white;
+}
+
+.post-preview {
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: 1em;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header li a {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-decoration-line: none;
+    margin-top: 1em;
+    border: solid black;
+    padding: 0.5em;
+    font-weight: bold;
+    background-color: gray;
+}
+
+header li a:hover {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+footer h5, footer li {
+    color: black;
+    text-align: center;
+    font-size: medium;
+}
+
+footer h5 {
+    margin-top: 1em;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.websitelink {
+    color:deepskyblue;
+}
